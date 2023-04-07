@@ -1,0 +1,44 @@
+.container-fluid img{
+    width: 40px;
+    border:2px solid salmon;
+    border-radius: 3px;
+    
+}
+.navbar-brand{
+    color: orange;
+    font-style: italic;
+}
+.name{
+    color: orange;
+}
+.home{
+    margin-top: 90px;
+   
+}
+.btn{
+    margin-right: 20px;
+}
+.social{
+    margin-top: 30px;
+}
+.a-1,.a-2,.a-3{
+    margin-right: 30px;
+}
+.heading{
+    text-align: center;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap:5px;
+    margin-top: 20px;
+}
+
+
+.heading-1{
+    text-align: center;
+}
+.contact-info{
+    color:darkgoldenrod;
+}
