@@ -80,9 +80,7 @@
 
     <!--About Section starts-->
     <section class="about text-center" id="about">
-        <h1 class="heading"><span>About</span> me </h1>
-        <img src="./image/Rony.jpg" alt="" class="center rounded-circle">
-        <p>I was born in Kishoregonj,Dhaka. I am completed my HSC at Abdul kadir Mullah City College. </p>
+        <img src="./image/Rony.jpg" alt="" class=" center rounded-circle">
         
 
     </section>
@@ -136,22 +134,19 @@
        </div>
            
        <p class="fs-4 fs-bold">Click on a skill to see more details:</p>
-        <div class="skill-details flex row-rows-3">
+        <div class="skill-details ">
             <div class="skill-info" id="language-info">
                 <h3>Language </h3>
-                <img src="https://i.pinimg.com/474x/1b/a8/6c/1ba86c320a5459f002280cc248c84527--languages-cultural.jpg">
                 <p>Fluent in English and Bangla, intermediate level in French.</p>
             </div>
             <div class="skill-info" id="microsoft-office-info">
                 <h3>MS Office</h3>
-                <img src="https://th.bing.com/th?id=OIP.zlNE9B3cwgtf43xZvTDBdAHaGW&w=270&h=231&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
                 <p>Proficient in:<br>
                     MS Word, MS Excel, and MS PowerPoint.</p>
             </div>
            
             <div class="skill-info" id="html-info">
                 <h3>HTML</h3>
-                <img src="https://th.bing.com/th?id=OIP.N-DZ2zefx8k7Kwy9q9zdMwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
                 <p>Comfortable with basic HTML elements and tags, experienced in building responsive web pages using CSS
                     and JavaScript frameworks.</p>
             </div>
@@ -163,13 +158,35 @@
         <!--Portfolio Section Starts-->
         <section class="Portfolio" id="Portfolio">
             <h1 class="heading">My<span> Portfolio</span></h1>
-            <div class="img-container row row-cols-3 gap-2">
-                <img src="./image/image-2.jpg" alt="">
-                <img src="./image/image-3.jpg" alt="">
-                <img src="./image/image-4.jpg" alt="">
-                <img src="./image/image-5.jpg" alt="">
-                <img src="./image/image-6.jpg" alt="">
-            </div>
+           
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./image/image-2.jpg" class="d-block w-100 " alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./image/image-3.jpg" class="d-block w-100 " alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./image/image-4.jpg" class="d-block w-100 " alt="...">
+                  </div>
+    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
         </section>
         <!--Contact Section Starts-->
         <section class="contact" id="contact">

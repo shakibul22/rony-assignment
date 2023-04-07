@@ -15,6 +15,9 @@
     margin-top: 90px;
    
 }
+.education{
+    margin-top: 100px;
+}
 .btn{
     margin-right: 20px;
 }
@@ -34,11 +37,26 @@
     gap:5px;
     margin-top: 20px;
 }
-
+.about{
+    margin-top: 15px;
+}
 
 .heading-1{
     text-align: center;
 }
 .contact-info{
     color:darkgoldenrod;
+}
+.about img{
+    width: 400px;
+}
+.skill-details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    margin-top: 75px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 500px;
 }
