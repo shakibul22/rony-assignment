@@ -1,9 +1,13 @@
+
 .container-fluid img{
-    width: 40px;
+    width: 30px;
     border:2px solid salmon;
-    border-radius: 3px;
-    
+    border-radius: 3px;  
 }
+.navbar-toggler:hover{
+    color: cornflowerblue;
+}
+
 .navbar-brand{
     color: orange;
     font-style: italic;
@@ -12,12 +16,21 @@
     color: orange;
 }
 .home{
+    width: 100%;
     margin-top: 90px;
-   
+   background-image: url(../image/image-6.jpg);
+   padding: 30PX;
+   background-size: cover;
+
+}
+.list-interest{
+ color:rgb(187, 11, 46);
 }
 .education{
     margin-top: 100px;
+    padding-left: 70px;
 }
+
 .btn{
     margin-right: 20px;
 }
@@ -33,9 +46,13 @@
 .box-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    justify-content: center;
     align-items: center;
-    gap:5px;
-    margin-top: 20px;
+    gap:15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+   
+    padding: 5px;
 }
 .about{
     margin-top: 15px;
@@ -54,9 +71,26 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap:10px;
-    margin-top: 75px;
+    padding: 20px;
+    background-color: beige;
 }
 .carousel-inner img{
     width: 100%;
     height: 500px;
+}
+.portfolio{
+   color: chocolate;
+}
+.carousel {
+    margin-top: 30px;
+}
+@media screen and (max-width: 688px){
+
+.box-container{
+   font-size: x-small;
+}
+.box{
+font-weight:200 px;
+}
+
 }
